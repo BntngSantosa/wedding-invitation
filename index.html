@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
@@ -15,21 +19,152 @@
       <main>
         <h4>Kepada Bapak/Ibu/Saudara/i.</h4>
         <h1>Bintang & ?</h1>
-        <p>Akan melangsungkan respsi pernikahan dalam</p>
+        <p>Akan melangsungkan resepsi pernikahan pada</p>
         <div class="countdown">
           <div class="simply-countdown">
             <p>12</p>
           </div>
           <div class="simply-countdown">
-            <p>MEI</p>
+            <p>Mei</p>
           </div>
           <div class="simply-countdown">
-            <p>2023</p>
+            <p>2024</p>
           </div>
         </div>
         <a href="#undangan" class="btn btn-lg">Lihat Undangan</a>
       </main>
     </section>
+
+    <nav class="navbar navbar-expand-md bg-body-transparant sticky-top my-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Wedding</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#galery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 12 Mei 2024 di Bandung Jawa Barat</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara Pernikahan kami</p>
+          </div>
+          <div class="row couple">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-8 text-end">
+                  <h3>Bintang Santosa</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reprehenderit eligendi perferendis, aliquid nostrum id itaque optio possimus? Quisquam, eligendi.</p>
+                  <p>
+                    Putra dari <br />
+                    Bapak Sudarjat<br />
+                    Ibu Mika Khaerul Lisani
+                  </p>
+                </div>
+                <div class="col-4">
+                  <img src="/imgs/pas photo.png" alt="Bintang Santosa" class="img-responsive rounded-circle" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-4">
+                  <img src="/imgs/2.jpg" alt="Bintang Santosa" class="img-responsive rounded-circle" />
+                </div>
+                <div class="col-8">
+                  <h3>?</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reprehenderit eligendi perferendis, aliquid nostrum id itaque optio possimus? Quisquam, eligendi.</p>
+                  <p>
+                    Putra dari <br />
+                    Bapak ?<br />
+                    Ibu ?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat : Jl. Aceh No.50, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</p>
+            <a href="https://goo.gl/maps/o9CNC7NT161cqaK28" target="_blank" class="btn btn-light btn-sm my-4"> Buka Peta</a>
+            <p class="description">Kami harap agar tidak keliru dan tidak salah alamat ataupun tanggal. Manakala tiba ditujuan tidak ada tanda-tanda dilangsungkannya pernikahan, bisa jadi Anda salah alamat atau tidak teliti dalam mlihat jadwal</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Akad Nikah
+              </div>
+              <div class="card-body">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-alarm d-block"></i>
+                    <span>08.30 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-week d-block"></i>
+                    <span>Senin 12 Mei 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Acara Akad Nikah dilakukan secara tertib
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">
+                Resepsi
+              </div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-alarm d-block"></i>
+                    <span>10.30 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar-week d-block"></i>
+                    <span>Senin 12 Mei 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Acara Resepsi dilakukan sampai selesai
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
